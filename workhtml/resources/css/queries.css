@@ -1,0 +1,109 @@
+
+/* for full tablet screen*/
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+     padding: 0 2%;
+        width:100%;
+       
+    }
+    .row{padding: 0 2%;}
+}
+
+
+
+
+/* for full screen*/
+@media only screen and (max-width: 1023px){
+body{font-size: 18px;}
+section{padding: 0 2%;}
+.long{
+	
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+    }
+    .btn-app img{
+        height: 40px;
+        width: auto;
+        margin-right: 20px;
+    }
+    .app-store{width:50%;}
+    .steps-box{margin-top: 10px;}
+    .steps-box:last-child{margin-top: 10px;}
+    .work{margin-bottom: 40px;}
+    .work:last-of-type{
+        margin-bottom: 40px;
+        }
+        .cities{font-size: 80%;}
+        .small{height: 20px;}
+        .plan-box{width:100%;
+        margin-left:0;}
+}
+
+
+
+
+/* for tablet screen*/
+@media only screen and (max-width: 767px){
+body{font-size:16px;}
+.row,
+.hero-text-box{padding: 0 4%;}
+.col{width:100%;
+margin:0 0 3% 0;}
+.section-features{display: block;}
+.main{display: none;}
+.mob-nav{display: inline-block;}
+.main{
+    float: left;
+    margin-top: 25px;
+    margin-left:25px;
+    
+}
+.main li{display: block;}
+.main li a:link,
+.main li a:visited{
+    display: block;
+    border: 0;
+    background-color: inherit;
+    padding: 5px 0;
+}
+
+.sticky .main{margin-top: 10px;}
+.sticky .main li a:link,
+.sticky .main li a:visited{
+	padding: 10px 0;
+}
+.sticky .mob-nav i{margin-top: 10px;}
+.sticky .mob.nav i{color: black;}
+h1{font-size: 180%;}
+h2{font-size: 130%;}
+.long{
+	
+	width: 100%;
+	margin-left:0;
+	margin-right:0;
+    }
+    .app-store{width:40%;}
+    .work div{
+        
+        
+      
+        height: 40%;
+        width: 40%;
+        
+        padding: 5px;
+       font-size: 120%;
+        margin-right: 10px;
+    }
+}
+
+
+
+/* for small screen*/
+@media only screen and (max-width:  480px){
+section{padding: 25% 0;}
+.form{width: 100%;}
+.col{width: 100%;
+     margin:5%;}
+}
+
